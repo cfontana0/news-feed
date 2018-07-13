@@ -1,0 +1,21 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "standard",
+        "promise",
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    },
+    "globals": {
+        "fetch": false,
+        "Request": false,
+        "Headers": false,
+        "FormData": true,
+        "XMLHttpRequest": true,
+        "it": true,
+        "Intercom": true
+    }
+}

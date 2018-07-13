@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feed component renders the feed correctly renders correctly 1`] = `
+<div
+  className="ui large feed"
+>
+  <div
+    className="event"
+  >
+    <div
+      className="label"
+    >
+      A
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="summary"
+      >
+        <a
+          className="user"
+        >
+          Austin Jackson
+        </a>
+         added a new feed
+      </div>
+      <div
+        className="meta"
+      >
+        <div
+          className="date"
+        >
+          a month ago
+        </div>
+      </div>
+      <div
+        className="text extra"
+      >
+        We have received the following document: Lab Work from Crescent Labs, LLC.
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feeds list component renders the feeds correctly renders correctly 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="ui fluid container"
+  >
+    <h2
+      className="ui header"
+    >
+      Feeds & News
+    </h2>
+    <div
+      className="ui large feed"
+    >
+      <div
+        className="event"
+      >
+        <div
+          className="label"
+        >
+          A
+        </div>
+        <div
+          className="content"
+        >
+          <div
+            className="summary"
+          >
+            <a
+              className="user"
+            >
+              Austin Jackson
+            </a>
+             added a new feed
+          </div>
+          <div
+            className="meta"
+          >
+            <div
+              className="date"
+            >
+              a month ago
+            </div>
+          </div>
+          <div
+            className="text extra"
+          >
+            We have received the following document: Lab Work from Crescent Labs, LLC.
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

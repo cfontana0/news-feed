@@ -1,0 +1,63 @@
+{
+  "type": "feed-item",
+  "relationships": {
+    "sender": {
+      "data": {
+        "type": "user",
+        "id": "124"
+      }
+    },
+    "feed-status": {
+      "data": null
+    },
+    "feed-request": {
+      "data": null
+    },
+    "feed-message": {
+      "data": {
+        "type": "feed-message",
+        "id": "1262"
+      }
+    }
+  },
+  "id": "1262",
+  "attributes": {
+    "updated-at": "2018-06-13T15:27:47Z",
+    "sent-as": 124,
+    "inserted-by": 124,
+    "inserted-at": "2018-06-13T15:27:47Z",
+    "id": 1262,
+    "feed-status-id": null,
+    "feed-request-id": null,
+    "feed-message-id": 1262,
+    "case-id": 162
+  },
+  "sender": {
+    "type": "user",
+    "id": "124",
+    "attributes": {
+      "updated-at": "2018-06-01T21:26:40Z",
+      "name": "Austin Jackson",
+      "inserted-at": "2018-06-01T21:26:40Z",
+      "id": 124,
+      "firm-user-id": 13,
+      "email": "austin@example.com",
+      "confirmed-at": "2018-06-01T21:27:08.029536Z",
+      "client-user-id": null
+    }
+  },
+  "message": {
+    "type": "feed-message",
+    "relationships": {
+      "feed-item": {}
+    },
+    "id": "1262",
+    "attributes": {
+      "updated-at": "2018-06-13T15:27:47Z",
+      "text": "We have received the following document: Lab Work from Crescent Labs, LLC.\n",
+      "inserted-at": "2018-06-13T15:27:47Z",
+      "id": 1262,
+      "feed-message-type": null
+    }
+  }
+}

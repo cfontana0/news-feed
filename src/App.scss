@@ -1,0 +1,23 @@
+.main {
+  padding: 80px;
+  background-color: #fafafa;
+  .container {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+    padding: 30px;
+    .header {
+      margin-bottom: 60px;
+    }
+    .event {
+      .label {
+        background-color: #00b5ad;
+        border-radius: 50%;
+        width: 2.5em;
+        height: 2.5em;
+        text-align: center;
+        color: white;
+        padding-top: 8px;
+      }
+    }
+  }
+}
